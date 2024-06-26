@@ -1,0 +1,1104 @@
+//TITLES FOR HALF-LIFE
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+CR27
+{
+Даследчы комплекс "Чорная Меза"
+Чорная Меза, Нью-Мексіка
+}
+
+
+//INTRO CREDITS
+// Test values -- JAY
+// Lower left
+$position 0.1 0.8
+$effect 1
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1.5
+$fadeout 0.5
+$holdtime 1.2
+
+CR1
+{
+Ted Backman
+}
+
+CR2
+{
+TK Backman
+}
+
+CR3
+{
+Kelly Bailey
+}
+
+CR4
+{
+Yahn Bernier
+}
+
+CR5
+{
+Ken Birdwell
+}
+
+CR6
+{
+Steve Bond
+}
+
+CR7
+{
+Dario Casali
+}
+
+CR8
+{
+John Cook
+}
+
+CR9
+{
+Greg Coomer
+}
+
+CR10
+{
+Wes Cumberland
+}
+
+CR11
+{
+John Guthrie
+}
+
+CR12
+{
+Mona Lisa Guthrie
+}
+
+CR13
+{
+Mike Harrington
+}
+
+CR14
+{
+Monica Harrington
+}
+
+CR15
+{
+Brett Johnson
+}
+
+CR16
+{
+Chuck Jones
+}
+
+CR17
+{
+Marc Laidlaw
+}
+
+CR18
+{
+Karen Laur
+}
+
+CR19
+{
+Randy Lundeen
+}
+
+CR20
+{
+Yatsze Mark
+}
+
+CR21
+{
+Lisa Mennet
+}
+
+CR22
+{
+Gabe Newell
+}
+
+CR23
+{
+Dave Riller
+}
+
+CR24
+{
+Aaron Stackpole
+}
+
+CR25
+{
+Jay Stelly
+}
+
+CR26
+{
+Harry Teasley 
+}
+
+CR35
+{
+Steve Theodore
+}
+
+CR36
+{
+Bill Van Buren
+}
+
+CR37
+{
+Robin Walker
+}
+
+CR38
+{
+Douglas R. Wood
+}
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+VALVEIS
+{
+Valve - гэта:
+}
+
+END1
+{
+Ted Backman
+TK Backman
+Kelly Bailey
+Yahn Bernier
+Ken Birdwell
+Steve Bond
+Dario Casali
+John Cook
+Greg Coomer
+Wes Cumberland
+}
+
+END2
+{
+John Guthrie
+Mona Lisa Guthrie
+Mike Harrington
+Monica Harrington
+Brett Johnson
+Chuck Jones
+Marc Laidlaw
+Karen Laur
+Randy Lundeen
+Yatsze Mark
+}
+
+END3
+{
+Lisa Mennet
+Gabe Newell
+Dave Riller
+Aaron Stackpole
+Jay Stelly
+Harry Teasley
+Steve Theodore
+Bill Van Buren
+Robin Walker
+Douglas R. Wood
+}
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+CR28
+{
+АБ'ЕКТ:
+Гордан Фрыман
+Мужчына, 27 гадоў
+}
+
+CR29
+{
+АДУКАЦЫЯ:
+Доктар навук, Масачусецкі тэхналагічны інстытут, тэарэтычная фізіка
+}
+
+CR30
+{
+ПАСАДА:
+Навуковы супрацоўнік
+}
+
+CR31
+{
+ПРЫЗНАЧЭННЕ:
+Лабараторыя анамальных матэрыялаў
+}
+
+CR32
+{
+ДОСТУП:
+Узровень 3
+}
+
+CR33
+{
+НАНІМАЛЬНІК:
+Засакрэчаны
+}
+
+CR34
+{
+ДЗЕЯННЯ У ВЫПАДКУ НС:
+Па сітуацыі
+}
+
+$fadein 0.03
+$holdtime 9
+
+GAMEOVER
+{
+АБ'ЕКТ: ФРЫМЕН
+
+СТАТУС: НАЗІРАННЕ ЗАВЕРШАНА
+
+ПАСМЕРТНА:
+Аб'екту не ўдалося эфектыўна выкарыстоўваць
+чалавечыя рэсурсы для дасягнення мэты.
+}
+
+$fadein 0.03
+$holdtime 9
+TRAITOR
+{
+АБ'ЕКТ: ФРЫМЕН
+
+СТАТУС: НАНЯЦЬ
+
+ЧАКАЕ ПРЫЗНАЧЭННЯ
+}
+
+
+$fadein 0.03
+$holdtime 9
+LOSER
+{
+АБ'ЕКТ: ФРЫМЕН
+
+СТАТУС: НАЗІРАННЕ ЗАверШАНА
+
+ПАСМЕРТНА:
+Аб'ект адхіліў прапанову працы.
+}
+
+//CHAPTER TITLES
+
+$fadein 0.01
+$position -1 0.4
+$holdtime 3.5
+T0A0TITLE
+{
+КУРС МАЛАДОГА БАЙЦА
+}
+
+$position -1 0.65
+C0A0TITLE
+{
+ЧОРНАЯ МЕЗА
+}
+
+OPENTITLE3
+{
+
+}
+
+OPENTITLE4
+{
+
+}
+
+C0A1TITLE
+{
+АНАМАЛЬНЫЯ МАТЭРЫЯЛЫ
+}
+
+C1A1TITLE
+{
+НЕПЕРАДЗЕДНЫЯ НАСЛЕДСТВА
+}
+
+C1A2TITLE
+{
+ОФІСЫ
+}
+
+C1A3TITLE
+{
+"МЫ СУСТРЭЛІ НЕПРЫЯЎНІКА"
+}
+
+C1A4TITLE
+{
+БЛАСТ ПІТ
+}
+
+C2A1TITLE
+{
+ЭНЕРГІЯ
+}
+
+C2A2TITLE
+{
+РЭЙКАВЫ ШЛЯХ
+}
+
+C2A3TITLE
+{
+ЗМУЖНЫЯ ПЕРАДЧУВАННІ
+}
+
+C2A4TITLE1
+{
+ЗАСТАЛОСЯ АПРАЦАВАЦЬ
+}
+
+C2A4TITLE2
+{
+ПЫТАННЕ МАРАЛІ
+}
+
+C2A5TITLE
+{
+ПАВЯРХОЎНАЕ НАЦЯЖЭННЕ
+}
+
+C3A1TITLE
+{
+"ЗАБУДЗЬ АБ ФРЫМЕНЕ!"
+}
+
+C3A2TITLE
+{
+ЯДРО ЛЯМБДЫ
+}
+
+C4A1TITLE
+{
+ЗЭН
+}
+
+C4A1ATITLE
+{
+НЯПРОШАНЫ ГОСЦЬ
+}
+
+C4A1BTITLE
+{
+
+}
+
+C4A1CTITLE
+{
+
+}
+
+C4A1ETITLE
+{
+
+}
+
+C4A1FTITLE
+{
+
+}
+
+C4A2TITLE
+{
+ЛОГОВА ГАНАРЧА
+}
+
+C4A3TITLE
+{
+НІХІЛАНТ
+}
+
+C5TITLE
+{
+КАНЕЦ ГУЛЬНІ
+}
+
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMESAVED
+{
+Захавана...
+}
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+GAMETITLE
+{
+Half-Life
+}
+
+//HAZARD COURSE TEXT
+
+// Test values -- JAY
+$position -1 0.65
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 0 200 50
+// This is the time it takes to fade each character
+$fadein 0.005
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$position -1 0.3
+HZBUTTON1
+{
+Націсніце "ВЫКАРЫСТОЎВАЦЬ" ДЛЯ НАЦІСЛЕННЯ НА КНОПКУ
+}
+
+$position -1 0.65
+HZBUTTON2
+{
+Націсніце "ВЫКАРЫСТОЎВАЦЬ" ДЛЯ НАЦІСЛЕННЯ НА КНОПКУ
+}
+
+HZMOVE
+{
+РУХАЙЦЕ НАПЕРАД, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАПЕРАД"
+РУХАЙЦЕ НАЗАД, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАЗАД"
+РУХАЙЦЕ НАЛЕВА, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАЛЕВА"
+РУХАЙЦЕСЯ ЎПРАВА, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "ВПРАВА"
+}
+
+HZJUMP
+{
+УЦЯКАЙЦЕ НАПЕРАД, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАПЕРАД"
+ПРЫГАЙЦЕ, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "СКАЧАК"
+}
+
+HZDUCK
+{
+УЦЯКАЙЦЕ НАПЕРАД, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАПЕРАД"
+ПРЫСЯДЬЦЕ, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "ПРАСЕСЦЬ"
+ВЫКАРЫСТОЎВАЙЦЕ КАМБІНАЦЫЮ КЛАВІШ "НАПЕРАД" +
+"ПРЫСЕСЦЬ", КАБ ПРАПОЎЗЦІ ЗНІЗУ
+}
+
+HZCOMBO
+{
+УЦЯКАЙЦЕ НАПЕРАД, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "НАПЕРАД"
+ПРЫГАЙЦЕ, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "СКАЧАК"
+ПРЫСЯДЬЦЕ, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "ПРАСЕСЦЬ"
+ПРЫГАЙЦЕ, ВЫКАРЫСТАЮЧЫ КЛАВІШУ "СКАЧАК"
+}
+
+HZDUCKJUMP
+{
+ВЫКАРЫСТОЎВАЙЦЕ КАМБІНАЦЫЮ КЛАВІШ "НАПЕРАД" +
+"СКАЧОК", ПОТЫМ НАЦІСНІЦЕ КЛАВІШУ "ПРЫСЕСЦІ"
+}
+
+HZLADDER
+{
+НАЦІСНІЦЕ КЛАВІШУ "НАПЕРАД", КАБ ПАДНЯЦЦА
+НАЦІСНІЦЕ КЛАВІШУ "НАЗАД", КАБ СПУСТІЦЦА
+}
+
+HZLJUMP
+{
+ПРЫ РУХУ НАПЕРАД УТРЫМАЙЦЕ КЛАВІШУ
+"ПРЫСЁСЦЬ", ПОТРАМ НАЦІСНІЦЕ КЛАВІШУ "СКАЧОК"
+}
+
+$position -1 0.3
+HZLMOD
+{
+У ПАЧАТКУ ПЕРАШКОДЫ ПЕРАКАНІЦЦА, ШТО
+У ВАС ЁСЦЬ МОДУЛЬ ДОЎНАЙ СКОКІ
+}
+
+$position -1 0.65
+HZMEDKIT
+{
+ВЫКАРЫСТОЎВАЙЦЕ АПТЭЧКУ, УТРЫМЛІВАЮЧЫ КЛАВІШУ
+"ВЫКАРЫСТОЎВАЦЬ", ПАКУЛЬ УЗРОВЕНЬ ЗДАРОЎЯ НЕ
+СТАНЕ 100% АБО ПАКУЛЬ АПТЭЧКА НЕ АПУСЦЕЕ
+}
+
+HZMOMENT
+{
+АКТЫВУЙ МОСТЫ І СКАНЕРЫ, УТРЫМЛІВАЮЧЫ
+КЛАВІШУ "ВЫКАРЫСТОЎВАЦЬ"
+УТРЫМАЙЦЕ ЯЕ, ПАКУЛЬ МОСТ НЕ ЎСТАНЕ Ў
+ПАДЫХОДНУЮ ПАЗІЦЫЮ
+}
+
+HZPUSH
+{
+КАБ ПАСУНУЦЬ СКРЫНКУ, ПАДЫДЗІЦЕ ДА ЯЕ
+І ПРАЦЯГВАЙЦЕ НАЦІСКАЦЬ КНОПКУ "НАПЕРАД"
+}
+
+HZPULL
+{
+ВЫКАРЫСТОЎВАЙЦЕ КАМБІНАЦЫІ "ВЫКАРЫСТОЎВАЦЬ" +
+КЛАВІШЫ РУХУ, КАБ РУХАЦЬ СКРЫНКУ
+}
+
+HZCROWBAR
+{
+ВАЗЬМІЦЕ МАНТЫРОЎКА
+КАБ РАЗБУРЫЦЬ АБ'ЕКТ, НАЦІСНІЦЕ "АТАКА 1"
+}
+
+HZLITEON
+{
+ВЫ МОЖАЦЕ ЎКЛЮЧЫЦЬ ЛІХТАРЫК
+З ДАПАМОГАЙ КЛАВІШЫ "ЛІХТАР"
+}
+
+HZLITEOFF
+{
+ВЫ МОЖАЦЕ ВЫКЛЮЧЫЦЬ ЛІХТАРЫК,
+НАЦІСНУЎШЫ КЛАВІШУ "ЛІХТАР", ЯШЧЭ РАЗ
+}
+
+HZWEAPON
+{
+ПАДЫДЗЕЦЕ ДА ЗБРОІ, КАБ УЗЯЦЬ ЯГО
+}
+
+HZFIREWEAP
+{
+"АТАКА 1" - АСНОЎНАЯ АТАКА
+"АТАКА 2" - АЛЬТЭРНАТЫЎНАЯ АТАКА
+"ПЕРАЗАРАДЗІЦЬ" - ПЕРАЗАРАДКА ЗБРОІ
+}
+
+HZARMOR
+{
+НАЦІСНІЦЕ І ЎТРЫМЛІВАЙЦЕ КЛАВІШУ "ВЫКАРЫСТОЎВАЦЬ"
+ДА ТЫХ ЧАСОЎ, ПАКУЛЬ БРАНЯ КАСЦЮМА НЕ ЗАРАДЗІЦЦА
+АБО ПАКУЛЬ зАРАДНАЯ ПРЫЛАДА НЕ РАЗРАДЗІЦЦА
+}
+
+HZSWIM
+{
+ВЫКАРЫСТОЎВАЙЦЕ КЛАВІШУ "НАПЕРАД", КАБ ПЛЫЦЬ
+КАНТРАЛЮЙЦЕ НАПРАМК РУХУ МЫШЫЮ
+КАЛІ ВЫ ПАЧАЛІ ГУБЛЯЦЬ ЗДАРОЎЕ, УСПЛЫВІЦЕ
+НА ПАВЕРХНУ, ПАКУЛЬ ЗДАРОЎЕ НЕ ВЯРНЮЦЦА
+У НОРМУ
+}
+
+HZDAMAGE
+{
+РОЗНЫЯ ТЫПЫ АТРЫМАНЫХ ПАШКОДАЎ
+АДЛЮСТРОЎВАЕЦЦА НА ВАШЫМ ЭКРАНЕ
+Кірунак пашкоджанняў адлюстроўваецца ў
+ВІДЗЕ ЧЫРВОНЫХ ЎСПЫШАК ПА ЦЭНТРЫ ЭКРАНА
+}
+
+HZHAZARD
+{
+ПРЫ ВЫСОКІМ УЗРОЎНІ РАДЫЯЦЫІ
+УКЛЮЧАЕЦЦА ЛІЧЫЛЬНІК ГЕЙГЕРА
+}
+
+HZSCIENTIST
+{
+КАНТАКТЫ З ВУЧОНЫМІ:
+Націсніце КЛАВІШУ "ВЫКАРЫСТОЎВАЦЬ", КАБ
+НАВУКОВЕЦ ВАС ПАДЛЯЧЫЎ
+}
+
+HZBARNEY
+{
+КАНТАКТЫ З АХОВАРАМІ:
+Націсніце КЛАВІШУ "ВЫКАРЫСТОЎВАЦЬ", КАБ
+АХОЎНІК ВАМ ДАПАМОГ
+ІДЗІЦЕ ДА ДЗВЯРЭЙ, А ЁН НАЦІСНЕ НА КНОПКУ;
+}
+
+HZTRAIN
+{
+КЛАВІША "ВЫКАРЫСТОЎВАЦЬ" - УКЛЮЧЭННЕ ПОЕЗДА
+КЛАВІША "НАПЕРАД" - ПАСКАРАННЕ РУХУ ПАЕЗДУ
+КЛАВІША "НАЗАД" - ЗАМЯГЛЕННЕ РУХУ ПОЕЗДА
+НАЦІСНІЦЕ "ВЫКАРЫСТОЎВАЦЬ", КАБ СЫСЦІ З ЦЯГНІКА
+}
+
+HZDONE
+{
+ВІНШУЕМ!
+ВЫ ЦАЛКАМ СКОНЧЫЛІ КУРС
+МАЛАДОГА БАЙЦА ЧОРНАЙ МЕЗЫ.
+ВЯРТАЙЦЕСЯ Ў ЛЮБЫ ЧАС.
+}
+
+Spec_Mode1
+{
+Блакір. пераслед
+}
+
+Spec_Mode2
+{
+Вольны пераслед
+}
+
+Spec_Mode3
+{
+Рэжым вольнага палёту
+}
+
+Spec_Mode4
+{
+Агляд ад першай асобы
+}
+
+Spec_Mode5
+{
+Свабодны агляд карты
+}
+
+Spec_Mode6
+{
+Пераслед. у рэжыме карты
+}
+
+Spec_NoTarget
+{
+Няма мэт. Немагчыма змяніць рэжым камеры.
+}
+
+Spec_Help_Title
+{
+Рэжым назіральніка
+}
+
+Spec_Help_Text
+{
+Для змены рэжыму прагляду выкарыстоўвайце клавішы:
+
+ "АТАКА 1" - ісці за наступным гульцом
+ "АТАКА 2" - ісці за папярэднім гульцом
+ "СКАЧОК" - змена рэжымаў прагляду
+ "ВЫКАРЫСТОЎВАЦЬ" - змена рэжыму ўстаўкі
+
+ "ПРЫСЁСЦЬ" - адкрыць меню назірання
+
+У рэжыме агляду карты рухайцеся пры дапамозе:
+
+ "НАЛЕВА" - рух налева
+ "УПРАВА" - рух направа
+ "НАПЕРАД" - наблізіць малюнак
+ "НАЗАД" - выдаліць малюнак
+ МЫШ - кручэнне вакол карты/мэты
+}
+
+Spec_Slow_Motion
+{
+Замарудзіў. рух
+}
+
+Spec_Replay
+{
+Рэжым паўтору
+}
+
+Spec_Auto
+{
+Аўта
+}
+
+// Multiplayer Scoreboard
+Spec_Map
+{
+Карта
+}
+
+Spectators
+{
+Назіральнікі
+}
+
+Unassigned
+{
+Не прызначаны
+}
+
+TEAMS
+{
+КАМАНДЫ
+}
+
+PLAYERS
+{
+ГУЛЬНЯЎ
+}
+
+CLASS
+{
+КЛАС
+}
+
+SCORE
+{
+РАХУНОК
+}
+
+DEATHS
+{
+СМЕРЦЕЙ
+}
+
+LATENCY
+{
+Пінг
+}
+
+VOICE
+{
+ГАЛОС
+}
+
+// other menu text
+Menu_OK
+{
+ДОБРА
+}
+
+Menu_Cancel
+{
+АДМЕНА
+}
+
+Mic_Volume
+{
+Гучнасць мікрафона
+}
+
+Speaker_Volume
+{
+Гучнасць дынамікаў
+}
+
+Voice_Properties
+{
+Уласцівасці голасу
+}
+
+Map_Description_not_available
+{
+Апісанне карты недаступнае.
+}
+
+Player
+{
+гулец
+}
+
+Player_plural
+{
+гульцоў
+}
+
+Muted
+{
+Вы адключылі гук %s.
+}
+
+Unmuted
+{
+Вы ўключылі гук %s.
+}
+
+No_longer_hear_that_player
+{
+Вы больш не пачуеце, што гаворыць гулец.
+}
+
+OBS_NONE
+{
+Наладкі камеры
+}
+
+OBS_CHASE_LOCKED
+{
+Блакіроў. пераслед
+}
+
+OBS_CHASE_FREE
+{
+Вольны пераслед
+}
+
+OBS_ROAMING
+{
+Рэжым вольнага палёту
+}
+
+OBS_IN_EYE
+{
+Агляд ад першай асобы
+}
+
+OBS_MAP_FREE
+{
+Свабодны агляд карты
+}
+
+OBS_MAP_CHASE
+{
+Пераслед. у рэжыме карты
+}
+
+SPECT_OPTIONS
+{
+Налады
+}
+
+CAM_OPTIONS
+{
+Наладкі камеры
+}
+
+Spec_Duck
+{
+"ПРЫСЁСЦЬ" - адкрыць меню назірання
+}
+
+Valve_Close
+{
+Закрыць
+}
+
+Valve_Help
+{
+Дапамога
+}
+
+Valve_Settings
+{
+Налады
+}
+
+Valve_Chat_Messages
+{
+Паведамленні ў чаце
+}
+
+Valve_Show_Status
+{
+Паказаць статус
+}
+
+Valve_View_Cone
+{
+Няма агляду
+}
+
+Valve_Player_Names
+{
+Імёны гульцоў
+}
+
+Valve_PIP
+{
+Малюнак у малюнку
+}
+
+Valve_Auto_Director
+{
+Аўтаматычнае кіраванне камерай
+}
+
+Valve_Show_Score
+{
+Паказаць рахунак
+}
+
+//DEMO CHAPTER TITLES
+
+$fadein 0.01
+$position -1 0.65
+$holdtime 3.5
+
+DEMOTITLE
+{
+UPLINK
+}
+
+
+//DEMO INTRO TEXT
+
+
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 0 200 50
+$fadein 0.005
+$fxtime 0.5
+$holdtime 3.5
+$fadeout 2.5
+
+//FROM INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.02
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+DEMOTXT1
+{
+АБ'ЕКТ:
+ГАРДОН ФРЫМЕН, ДОКАТАР НАВУК
+}
+
+DEMOTXT2
+{
+БЯГУЧАЕ МЕСТАПАЛАЖЭННЕ:
+РЭАКТАРНЫ КОМПЛЕКС ЛЯМБДА
+ДАСЛЕДЧЫ ЦЭНТР ЧОРНАЙ МЕЗЫ
+}
+
+DEMOTXT3
+{
+ЧАС:
+48 ГАДЗІН З МОМАНТА РАЗРУШЭННЯ АХОВАЙ АБАЛОНКІ
+}
+
+DEMOTXT4
+{
+СТАТУС:
+У ПРАЦЭСЕ АНАЛІЗУ
+}
+
+
+$holdtime 7.5
+
+DEMOTXT6
+{
+ВЫНІК АНАЛІЗА:
+UPLINK ЗАВЕРШАНЫ.
+}
+
+DEMOTXT7
+{
+ПАТРАБУЮЦЦА ДАДАТКОВЫЯ ДАДЗЕНЫЯ.
+}
